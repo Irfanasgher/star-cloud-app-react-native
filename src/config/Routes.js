@@ -1,0 +1,33 @@
+
+
+export default {
+    login: 'auth/login',
+    register: 'auth/register',
+    forgotPassword: 'auth/forgot/password',
+    resetPassword: 'auth/reset/password',
+    allBadges: 'badge/all',
+    badge: 'badge/',
+    allStars: 'stars/all',
+    star: '/stars/',
+    chats: 'messages',
+    chat: 'messages/',
+    sendMessage: 'messages/send',
+    home: 'home',
+    allEvents: 'events/all',
+    event: 'event/',
+    participate: 'event/participate',
+    participants: 'event/participants/',
+    coins: 'coins/buy',
+    myGifts: 'gifts/received',
+    myBadges: 'badge/user/badges',
+    friends: '/user/friend',
+    sendRequest: 'user/friend/request',
+    cancelRequest: 'user/friend/request/delete',
+    unFriend: 'user/friend/request/unFriend',
+    block: 'user/block',
+    blockList: 'user/block-list',
+    unBlockUser: 'user/unblock',
+    notifications: 'notifications',
+    profile:'users/profile',
+
+};
